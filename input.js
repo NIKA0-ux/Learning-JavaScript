@@ -6,5 +6,5 @@ document.getElementById("mySubmit").onclick = function() {
     // document.getElementById("myProfile").textContent = `Welcome ${username}. How are you doing today?`
 
     // linking JS to another link
-    window.location.href = "generator.html";
-}
+//     window.location.href = "generator.html";
+// }
