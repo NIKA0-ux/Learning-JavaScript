@@ -1,4 +1,4 @@
-// For loop example
+// FOR LOOP example
 
 // for loop for counting
 
@@ -75,16 +75,78 @@
 
 // Major Example: Find odd number
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 !== 0) {
-    console.log(i);
-}
-}
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 !== 0) {
+//     console.log(i);
+// }
+// }
 
 // Major Example: Find Even number
 
-for (let i = 1; i <= 100; i++) {
-    if (i % 2 == 0) {
-    console.log(i);
-}
-}
+// for (let i = 1; i <= 100; i++) {
+//     if (i % 2 == 0) {
+//     console.log(i);
+// }
+// }
+
+
+// WHILE LOOP
+
+// let i = 1;
+// while (i <= 5) {
+//     console.log(i);
+//     i++;
+// }
+
+// let i = 5;
+// while (i >= 1) {
+//     console.log(i);
+//     i--;
+// }
+
+// X-table using While loop
+
+// let i = 1;
+
+// while (i <= 40) {
+//     console.log(`5 x ${i} = ${5 * i}`);
+//     i++;
+// }
+
+// let myPin = "1234";
+
+// while (myPin !== "1234") {
+//     console.log(`Enter corrct pin`);
+// }
+
+// loop for array
+
+// const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
+// for (let i =0; i <= fruits.length; i++) {
+//     console.log(fruits[i]);
+// }
+
+// for loop
+
+// const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
+// for (const fruit of fruits) {
+//     console.log(fruit);
+// }
+
+
+
+// DO WHILE LOOP
+
+// let i = 1;
+// do {
+//     console.log(i);
+//     i++;
+// } while(i <= 5);
+
+let i = 1;
+do {
+    if (i % 2 !== 0){
+        console.log(i);
+    }
+    i++
+}while (i <= 100);
