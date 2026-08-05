@@ -1,11 +1,18 @@
 body {
     font-family: Georgia, 'Times New Roman', Times, serif;
+    font-size: 1em;
 }
 
 .headers {
     font-family: cursive;
     text-align: center;
     color: blue;
+}
+
+#thead {
+    font-family: cursive;
+    font-size: 1.5em;
+    color: red;
 }
 
 #gojo {
