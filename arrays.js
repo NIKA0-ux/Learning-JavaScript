@@ -60,5 +60,3 @@
 // const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
 // console.log(fruits.reverse());
 
-const score = [45, 67, 89, 7, 100];
-console.log(score.sort());
