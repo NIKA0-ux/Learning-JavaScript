@@ -65,8 +65,8 @@
 
 
 // 10. 9 x table (Do While Loop)
-let i = 1;
-do {
-    console.log(`9 x ${i} = ${9 * i}`);
-    i++;
-} while ( i <= 40);
+// let i = 1;
+// do {
+//     console.log(`9 x ${i} = ${9 * i}`);
+//     i++;
+// } while ( i <= 40);

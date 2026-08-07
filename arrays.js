@@ -60,3 +60,66 @@
 // const fruits = ["apple", "orange", "pineapple", "banana", "mango"];
 // console.log(fruits.reverse());
 
+
+//  To change the list of an array at once - Map
+
+// const numbers = [1, 2, 3, 4, 5];
+// const doubledNumbers = numbers.map( n => n * 2);
+// console.log(doubledNumbers);
+
+// const names = ["Temi", "Samson", "Ife", "Fiyin"];
+// const shoutNames = names.map(names => names.toUpperCase());
+// console.log(shoutNames);
+
+
+// const users = [
+//     {id: 101, name: "samson"},
+//     {id: 102, name: "Fiyin"},
+//     {id: 103, name: "Temi"}
+// ];
+
+// const userIds = users.map(user => user.id);
+// const userNames = users.map(user => user.name);
+// console.log(userIds);
+// console.log(userNames);
+
+
+// To filter an array - Filter
+
+// const numbers = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10];
+// const evens = numbers.filter(n => n % 2 === 0);
+// const odds = numbers.filter(n => n % 2 !== 0);
+// console.log(evens);
+// console.log(odds);
+
+
+// const users =  [
+//     {id: 101, name: "Samson", active: true},
+//     {id: 102, name: "fiyin",active: false},
+//     {id: 103, name: "Temi",active: true}
+// ];
+
+// const activeUsers = users.filter(user => user.active);
+// console.log(activeUsers);
+
+// const fruits = ["Papaya", "Pear", "Avocado", "Pawpaw", "Orange"];
+// const searchResult = fruits.filter(fruits => fruits.includes("P"));
+// console.log(searchResult);
+
+
+// To reduce the list of an array - reduce
+
+const numbers = [10, 20, 30, 40];
+const total = numbers.reduce((sum,numbers) => {
+    return sum + numbers;
+}, 0);
+
+console.log(total);
+
+
+const fruits = ["Banana", "Apple", "Banana", "Orange", "Banana", "Apple"];
+const fruitCount = fruits.reduce ((counts,fruits) => {
+    counts[fruits] = (counts[fruits] || 0) +1;
+    return counts;
+}, {});
+console.log(fruitCount);
